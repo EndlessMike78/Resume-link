@@ -1,0 +1,89 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main id="main">
+  <h1 id="title">David Bowie</h1>
+  <h3>Artist and Musician</h3>
+  <div id="img-div">
+    <img id="image" alt="David Bowie image" src="https://cdn.mos.cms.futurecdn.net/Lvd4yWGHJrmptjYiwvLp7c-320-80.jpg" />
+    <figcaption id="img-caption"> <strong>English singer-songwriter and actor. A leading figure in the music industry, he is regarded as one of the most influential musicians of the 20th century. Bowie was acclaimed by critics and musicians, particularly for his innovative work during the 1970s. His career was marked by reinvention and visual presentation, and his music and stagecraft had a significant impact on popular music.</strong>
+    </figcaption>
+
+  </div>
+  <div id="tribute-info">
+    <h3> A short list of some of his albums </h3>
+    <ul>
+      <li>David Bowie (1967)</li>
+      <li>David Bowie[f] (1969)</li>
+      <li>The Man Who Sold the World (1970)</li>
+      <li>Hunky Dory (1971)</li>
+      <li>The Rise and Fall of Ziggy Stardust and the Spiders from Mars (1972)</li>
+      <li>Aladdin Sane (1973)</li>
+      <li>Pin Ups (1973)</li>
+      <li>Diamond Dogs (1974)</li>
+      <li>Young Americans (1975)</li>
+      <li>Station to Station (1976)</li>
+      <li>Low (1977)</li>
+      <li>"Heroes" (1977)</li>
+      <li>Lodger (1979)</li>
+      <li>Scary Monsters (and Super Creeps) (1980)</li>
+      <li>Let's Dance (1983)</li>
+      <li>Tonight (1984)</li>
+      <li>Never Let Me Down (1987)</li>
+      <li>Black Tie White Noise (1993)</li>
+      <li>The Buddha of Suburbia (1993)</li>
+      <li>Outside (1995)</li>
+      <li>Earthling (1997)</li>
+      <li>Hours (1999)</li>
+      <li>Heathen (2002)</li>
+      <li>Reality (2003)</li>
+      <li>The Next Day (2013)</li>
+      <li>Blackstar (2016)</li>
+    </ul>
+  </div>
+  <h5>If you have some free time please read more about this amazing artist <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/David_Bowie">HERE</a>.
+  </h5>
+  <link rel="stylesheet" href="styles.css">
+</main>
+CSS
+#main {
+  max-width: 1200;
+  max-height: 100%;
+  margin: 30px auto;
+  padding: 15px;
+  background-color: #dcdcdc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#title {
+  text-align: center;
+}
+#main > p {
+  text-align: center;
+}
+#img-div {
+  max-width: 600;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #2f4f4f;
+}
+img{
+  max-width: 100%;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+#tribute-info {
+  max-width: 500px;
+  margin: 0 auto;
+}
+#tribute-info > h3: {
+  text-align: center;
+}
+#tribute-info > ul li {
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+h5{
+  text-align: center;
+}

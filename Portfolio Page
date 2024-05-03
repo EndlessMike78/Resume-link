@@ -1,0 +1,65 @@
+<header id="header">
+
+  <nav id="navbar">
+
+    <a href="#welcome-section"> Hello </a>
+    <a href="#projects"> Portfolio </a>
+    <a href="#contact"> Contact </a>
+
+  </nav>
+</header>
+<img src="https://image.shutterstock.com/image-vector/my-initials-logo-sliced-260nw-1223754094.jpg" alt="MY_logo" id="MY_logo">
+<section id="welcome-section" class="welcome-section">
+  <h1>Hi I'm Michael Young, An Aspiring Web Developer
+  </h1>
+</section>
+<section id="projects" class="projects-section">
+  <h3>Portfolio</h3>
+
+  <div id="projects-grid">
+    <a href="https://codepen.io/EndlessMike78" target="_blank" class="project project-tile">CodePen
+      <img class="project-image" src="https://i.pinimg.com/originals/06/fb/8a/06fb8a30aa42737bc5dced309af82cb7.jpg" alt="project">
+    </a>
+    <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page" id="profile-link" target="_blank" class="project project-tile">Free Code Camp <img class="https://www.iconspng.com/images/free-code-camp-logo.jpg" alt="project">
+    </a>
+    <a href="https://www.youtube.com/channel/UCwRjfZVV-G_ZpZUop50C7SA" target="_blank" class="project project-tile"> YouTube <img class="https://assets.turbologo.com/blog/en/2019/10/19084944/youtube-logo-illustration.jpg" alt="project">
+    </a>
+
+  </div>
+</section>
+<link rel="stylesheet" href="styles.css">
+CSS
+@media only screen and (max-width: 800px) header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 10px;
+  padding: 25px 0px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: black;
+  opacity: 0.7;
+  z-index: 5;
+}
+header a {
+  margin-right: 2rem;
+  color: grey;
+  text-decoration: none;
+  z-index: 5;
+}
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+
+  position: absolute;
+  top: 10vw;
+  left: 0vw;
+  z-index: 2;
+}
+nav{
+  position: fixed;
+}
